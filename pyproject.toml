@@ -33,7 +33,7 @@ name = "spotify-win-cli"  # REQUIRED, is the only field that cannot be marked as
 #
 # For a discussion on single-sourcing the version, see
 # https://packaging.python.org/guides/single-sourcing-package-version/
-version = "4.0.1"  # REQUIRED, although can be dynamic
+version = "4.0.2"  # REQUIRED, although can be dynamic
 dynamic = ["readme"]
 # This is a one-line description or tagline of what your project does. This
 # corresponds to the "Summary" metadata field:
@@ -150,7 +150,7 @@ classifiers = [
 # The following would provide a command line executable called `sample`
 # which executes the function `main` from this package when invoked.
 [project.scripts]
-spotify-win-cli = "src.spotify_win_cli:main.hw"
+spotify-win-cli = "spotify_win_cli:main.hw"
 
 
 # This is configuration specific to the `setuptools` build backend.
