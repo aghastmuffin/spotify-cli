@@ -152,7 +152,7 @@ classifiers = [
 # The following would provide a command line executable called `sample`
 # which executes the function `main` from this package when invoked.
 [project.scripts]
-spotify = "spotify-win-cli:main.hw"
+spotify-win-cli = "spotify-win-cli:main.hw"
 
 
 # This is configuration specific to the `setuptools` build backend.
