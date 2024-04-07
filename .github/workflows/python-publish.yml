@@ -9,9 +9,12 @@
 name: Upload Python Package
 
 on:
+  push:
+    branches:
+      - main  # or the name of your default branch
   release:
     types: [published]
-
+    
 permissions:
   contents: read
 
