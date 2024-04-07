@@ -49,7 +49,7 @@ description = "interact with spotify through commands"
 # This field corresponds to the "Description" metadata field:
 # https://packaging.python.org/specifications/core-metadata/#description-optional
 #readme = "README.md"
-
+readme = "dynamic"
 # Specify which Python versions you support. In contrast to the
 # 'Programming Language' classifiers in this file, 'pip install' will check this
 # and refuse to install the project if the version does not match. See
