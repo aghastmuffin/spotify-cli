@@ -3,7 +3,7 @@ from os import path
 
 setup(
     name="spotify-win-cli",
-    version="3.0.0",
+    version="1.0.1",
     long_description="This is a detailed description of my package.",
     long_description_content_type='text/plain'
 )
