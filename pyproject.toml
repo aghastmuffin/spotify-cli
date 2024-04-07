@@ -14,7 +14,7 @@ requires = ["setuptools>=64.0.0", "setuptools-scm>1.5.4"]  # REQUIRED if [build-
 build-backend = "setuptools.build_meta"  # If not defined, then legacy behavior can happen.
 
 [tool.setuptools.packages.find]
-where = ["src/"]
+where = ["src/"] #https://packaging.python.org/en/latest/guides/packaging-namespace-packages/
 
 [project]
 # This is the name of your project. The first time you publish this
