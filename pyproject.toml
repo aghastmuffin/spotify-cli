@@ -39,10 +39,7 @@ version = "3.0.0"  # REQUIRED, although can be dynamic
 # corresponds to the "Summary" metadata field:
 # https://packaging.python.org/specifications/core-metadata/#summary
 description = "interact with spotify through commands"
-long_description = """
-Your long description here. You can include detailed information about your project, its features, usage, and anything else you find relevant. This can be a multi-line string.
-"""
-long_description_content_type = "text/x-rst"
+
 # This is an optional longer description of your project that represents
 # the body of text which users will see when they visit PyPI.
 #
